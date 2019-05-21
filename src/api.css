@@ -1,0 +1,200 @@
+﻿#Notice {
+    padding-bottom: 50px;
+    font-size: 12px;
+}
+
+.notice-box {
+    padding: .6rem;
+    text-align: left;
+}
+
+.notice-box:not(:last-child) {
+    border-bottom: 2px solid #b2b2b2;
+}
+
+.notice-box .title {
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-indent: 36px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.notice-box .con {
+    /*line-height:9px;*/
+}
+
+.icon_04 {
+    background-image: url("../img/icon_04.png");
+}
+
+.icon_05 {
+    background-image: url("../img/icon_05.png");
+}
+
+img {
+    max-width: 100%;
+}
+
+.PasswordBox, .WechatBox, .RedBagBox {
+    color: #fff;
+}
+
+#ExclusiveButtons {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 640px;
+    z-index: 99;
+    height: 50px;
+    line-height: 50px;
+    background-color: hsla(0, 0%, 100%, .95);
+}
+
+#ExclusiveButtons:before {
+    content: "";
+    height: 0;
+    display: block;
+    border-top: 1px solid #ddd;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 2;
+}
+
+.icon_btn, .ExclusiveButton {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    float: left;
+    height: 100%;
+    text-align: center;
+
+}
+
+.ExclusiveButton {
+    font-size: 14px;
+    color: #fff;
+    /*width: 32%;*/
+    width: 35%;
+}
+
+.color-1 {
+    background: #FF0036;
+}
+
+.icon_btn {
+    /*width: 12%;*/
+    width: 15%;
+    font-size: 10px;
+    background-size: auto 20px;
+}
+
+.icon_btn:active {
+    opacity: .8;
+}
+
+.icon_btn .icon {
+    display: block;
+    width: 20px;
+    height: 25px;
+    margin: 5px auto 0;
+    position: relative;
+    background-position: center center;
+    background-size: inherit;
+    background-repeat: no-repeat;
+}
+
+.icon_01 {
+    background-image: url("../img/icon_01.png");
+}
+
+.icon_02 {
+    background-image: url("../img/icon_02.png");
+}
+
+.icon_03 {
+    background-image: url("../img/icon_03.png");
+}
+
+.icon_btn .txt {
+    font-size: 10px;
+    color: #666;
+    display: block;
+    line-height: 20px;
+}
+
+.color-2 {
+    background: #FF9500;
+}
+
+.color-2:active, .color-1:active {
+    opacity: .8;
+}
+
+button {
+    background: none;
+    border: 0;
+}
+
+.beatWord fieldset {
+    padding: .8em;
+    margin: 0 2px;
+    border: 1px dashed #f54d23;
+    background: #fff;
+    margin-bottom: 10px;
+}
+
+.beatWord fieldset legend {
+    background: #f54d23;
+    border: none;
+    font-size: 0.8rem;
+    line-height: 20px;
+    color: #fff;
+    padding: 0 4px;
+    margin: 0 auto;
+}
+
+.beatWord button {
+    border: none;
+    font-size: 16px;
+    padding: 6px 15px;
+    background: #f60;
+    display: inline-block;
+    margin: 10px auto;
+    border-radius: 16px;
+    color: #fff;
+}
+
+.beatWord {
+    display: none;
+}
+
+.QuickCopy {
+    background: #FF0036;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 14px;
+    background-image: -webkit-linear-gradient(left, #FF7A00, #FE560A);
+    background-image: linear-gradient(to right, #FF7A00, #FE560A);
+}
+
+#MainPicture {
+    width: 100%;
+    display: block;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+.aoao_button{
+    padding:0;
+    margin:0;
+    border:0;
+    width:100%;
+}
