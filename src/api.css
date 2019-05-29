@@ -28,11 +28,11 @@
 }
 
 .icon_04 {
-    background-image: url("../img/icon_04.png");
+    background-image: url("./src/icon_04.png");
 }
 
 .icon_05 {
-    background-image: url("../img/icon_05.png");
+    background-image: url("./src/icon_05.png");
 }
 
 img {
@@ -110,15 +110,15 @@ img {
 }
 
 .icon_01 {
-    background-image: url("../img/icon_01.png");
+    background-image: url("./src/icon_01.png");
 }
 
 .icon_02 {
-    background-image: url("../img/icon_02.png");
+    background-image: url("./src/icon_02.png");
 }
 
 .icon_03 {
-    background-image: url("../img/icon_03.png");
+    background-image: url("./src/icon_03.png");
 }
 
 .icon_btn .txt {
